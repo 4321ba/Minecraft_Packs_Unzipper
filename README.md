@@ -19,6 +19,7 @@ This little program allows you to unzip such zip archives e.g. the Wynncraft res
 # Compiling
 
 You'll need to have (Open)JDK installed.
+
 1. Compiling to bytecode: `javac Unzip.java`
 1. Creating the jar file: `jar cmvf META-INF/MANIFEST.MF Unzip.jar Unzip.class`
 1. Running the program: `java -jar Unzip.jar my_zip_file.zip`
