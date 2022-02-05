@@ -1,10 +1,17 @@
 # Motivation
 
-[PackSquash](https://github.com/ComunidadAylas/PackSquash) is a Minecraft resource/data pack optimizer, which can break compatibility with regular unzippers willingly or unwillingly, to reduce filesize or "protect" the files inside.
+Related discussion: [here](https://www.spigotmc.org/threads/make-a-resource-pack-corrupted-to-protect-it-like-originalrealm.487709/).
 
-It can make unzip think that "zipfile claims to be last disk of a multi-part archive", and it terminates because "invalid zip file with overlapped components (possible zip bomb)".
+[PackSquash](https://github.com/ComunidadAylas/PackSquash) is a Minecraft resource/data pack optimizer, which can break compatibility with regular unzippers willingly or unwillingly, to reduce filesize or "protect" the files inside. There are other, similar tools too.
 
-This little program allows you to unzip such zip archives e.g. the Wynncraft resource pack, (and probably every other normal archive too). It uses the same Java utility for unzipping as Minecraft, so it won't have any problem reading the not-really-standard kindof obfuscated zip files generated specifically for Minecraft by PackSquash.
+These can make unzip think that "zipfile claims to be last disk of a multi-part archive", and it terminates because "invalid zip file with overlapped components (possible zip bomb)", making unzip programs unable to unzip them.
+
+This little program allows you to unzip such zip archives e.g. the Wynncraft resource pack, (and probably every other normal archive too). It uses the same Java utility for unzipping as Minecraft, so it won't have any problem reading the not-really-standard kindof obfuscated zip files generated specifically for Minecraft by PackSquash, or other, similar tools.
+
+---
+# Disclaimer
+
+DO NOT STEAL STUFF FOR YOUR PUBLIC SERVER, ASK THE ORIGINAL CREATORS FIRST (even if you don't make profit). However, I think it should be fine for home use ;).
 
 ---
 # Usage
