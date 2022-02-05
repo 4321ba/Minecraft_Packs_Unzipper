@@ -9,7 +9,7 @@ This little program allows you to unzip such zip archives e.g. the Wynncraft res
 ---
 # Usage
 
-1. Have Java 17 installed (other versions may work, though untested).
+1. Have Java installed (Java 8 and Java 17 tested, if there is a problem, you should use the java version that Minecraft uses).
 1. Download the program from [Releases](https://github.com/4321ba/PackSquash_Unzipper/releases).
 1. Open a terminal.
 1. Choose the directory where you downloaded the program, e.g. `cd Downloads`
@@ -18,6 +18,7 @@ This little program allows you to unzip such zip archives e.g. the Wynncraft res
 ---
 # Compiling
 
+You'll need to have (Open)JDK installed.
 1. Compiling to bytecode: `javac Unzip.java`
 1. Creating the jar file: `jar cmvf META-INF/MANIFEST.MF Unzip.jar Unzip.class`
 1. Running the program: `java -jar Unzip.jar my_zip_file.zip`
