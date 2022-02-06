@@ -13,6 +13,8 @@ This little program allows you to unzip such zip archives e.g. the Wynncraft res
 
 DO NOT STEAL STUFF FOR YOUR PUBLIC SERVER/RESOURSEPACK/DATAPACK, ASK THE ORIGINAL CREATORS FIRST (even if you don't make profit). However, I think it should be fine for home use ;).
 
+ALWAYS GIVE PROPER CREDIT TO THE ORIGINAL AUTHOR!
+
 ---
 # Usage
 
